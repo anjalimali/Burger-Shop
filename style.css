@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+.up{
+    margin-left: 6rem;
+    margin-top: 10px;
+}
+.up h1{
+    color: white;
+}
+
+.lw{
+    margin: 1rem;
+    margin-right: 2rem;
+}
+.lw a{
+    color: white;
+    padding-right: 1rem;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.lw button{
+    padding: 5px;
+    background-color: orange;
+    border-radius: 5px;
+}
+.container-fluid{
+    background-color: black;
+}
+
+.content1 {
+    margin:5rem;   
+    /* margin-right: 0; */
+}
+
+.content1 img{
+    border-radius: 1rem;
+    height: 700px;
+    width: 500px;
+}
+
+.content2{
+    margin: 5rem;
+    margin-left: 0;
+    padding-right: 4rem;
+    color: white;
+}
+
+.content2 h1{
+    margin-top: 10rem;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.content2 p{
+    padding-top: 2rem;
+    text-align: justify;
+}
+
+.col1{
+    justify-content: space-between;
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content2 button{
+    margin-top: 5rem;
+    padding: 15px 40px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+.col-md-4{
+    background-color: black;
+}
+
+.box1{
+    display: flex;
+    background-color: orange;
+    margin-left: 5rem;
+    /* padding-right: 1rem; */
+    border-radius: 2rem;
+}
+
+.img1 img{
+    height: 100px;
+    margin-top: 1rem;
+}
+
+.col_1{
+    padding: 1rem;
+}
+.col_1 h1{
+    font-size: 28px;
+    margin: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.col_1 p{
+    color: white;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+.col_1 a{
+    /* margin-top: 0; */
+    color: rgb(227, 227, 26);
+    text-decoration: none;
+}
+
+.box2{
+    display: flex;
+    background-color:green;
+    /* margin: 1rem; */
+    margin-right: 3rem;
+    margin-left: 3rem;
+    border-radius: 2rem;
+}
+
+.box3{
+    display: flex;
+    background-color:red;
+    /* margin: 3rem; */
+    padding-right: 0;
+    border-radius: 2rem;
+    margin-right: 5rem;
+}
+
+.col_2{
+    margin: 3rem;
+    display: flex;
+    padding: 1rem;
+    margin-right: 5rem;
+    /* background-color: rgb(47, 44, 44); */
+    border-radius: 2rem;
+    margin-bottom: 0;
+}
+.col_3 img{
+    height: 300px;
+}
